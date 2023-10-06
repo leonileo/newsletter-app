@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "serve": "node dist/server.js"
+    "build": "npm run build",
+    "serve": "node app.js"
   },
   "author": "kaleb",
   "license": "ISC",
