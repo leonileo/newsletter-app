@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "npm run build",
+    "build": "npm install && npm run build",
     "serve": "node app.js"
   },
   "author": "kaleb",
