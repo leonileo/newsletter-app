@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
+    "build": "rm -rf dist && npm install && npm run build",
     "serve": "node dist/app.js"
   },
   "author": "kaleb",
