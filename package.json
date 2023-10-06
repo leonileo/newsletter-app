@@ -4,8 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "nodemon app.js",
     "build": "npm install && npm run build",
-    "serve": "node app.js"
+    "serve": "node dist/app.js"
   },
   "author": "kaleb",
   "license": "ISC",
